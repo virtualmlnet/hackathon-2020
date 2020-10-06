@@ -16,7 +16,7 @@ You can sign up by filling out the [signup form](https://aka.ms/mlnet-hack-signu
 
 ## How do I create a project?
 
-Once you've signed up, you can create a project by [submitting an issue to the repository](https://github.com/virtualmlnet/test-hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea).
+Once you've signed up, you can create a project by [submitting an issue to the repository](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea).
 
 ## Can I bring an existing project?
 

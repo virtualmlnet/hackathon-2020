@@ -23,3 +23,5 @@ Use this document to give you ideas of the types of problems you can solve using
 - Handwritten equation solver
 - Facial recognition to detect mood 
 - Social media post sentiment analysis
+
+Ready to get started? [Create a project](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea).

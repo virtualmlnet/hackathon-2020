@@ -8,7 +8,7 @@ Welcome to the 2020 Virtual ML .NET Hackathon!
 ## Get Started
 
 - [Sign up](https://aka.ms/mlnet-hack-signup)
-- [Create a project](https://github.com/virtualmlnet/test-hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea)
+- [Create a project](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea)
 
 ## Schedule
 
@@ -21,7 +21,7 @@ Welcome to the 2020 Virtual ML .NET Hackathon!
 
 ## <a id="create-project"></a> Create a project
 
-To create a project, create [an issue](https://github.com/virtualmlnet/test-hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea) in this repository. In the issue put the details of the project and any relevant links to the data.
+To create a project, create [an issue](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea) in this repository. In the issue put the details of the project and any relevant links to the data.
 
 *Note for the data, make sure the data doesn't include any personal information such as names, address, etc.*
 
