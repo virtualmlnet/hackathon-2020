@@ -2,7 +2,7 @@
 
 - Have fun!
 - Anyone is welcome to participate
-- Must [create/register a project](https://github.com/virtualmlnet/test-hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea)
+- Must [create/register a project](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea)
 - You **MUST** work on **NEW** projects. Only new projects will be considered for submission.
 - You can create/join more than one project
 - **MUST** use ML .NET in some part of the project.

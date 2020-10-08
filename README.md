@@ -27,7 +27,7 @@ To create a project, create [an issue](https://github.com/virtualmlnet/hackathon
 
 ## Joining an Existing Project
 
-If you want to join a project instead of starting on, comment on an [existing issue](https://github.com/virtualmlnet/test-hackathon-2020/issues) that has a project you want to work on indicating you'd like to work on it.
+If you want to join a project instead of starting on, comment on an [existing issue](https://github.com/virtualmlnet/hackathon-2020/issues/) that has a project you want to work on indicating you'd like to work on it.
 
 ## Final Submissions
 
