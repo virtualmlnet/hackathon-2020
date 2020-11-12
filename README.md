@@ -14,7 +14,7 @@ Welcome to the 2020 Virtual ML .NET Hackathon!
 
 | Date | Activity | Description |
 | --- | --- | --- |
-| November 13 (10 AM PDT) | Workshop | Introductory workshop for new ML.NET
+| November 13 (12 PM PDT) | Workshop | Introductory workshop for new ML.NET
 | November 13-18 | Hacking | Use this time to hack on your idea
 | November 18 (11:59 PM PDT) | Final submissions due | You're done!
 | November 20  | Winners announced | Congratulations!
