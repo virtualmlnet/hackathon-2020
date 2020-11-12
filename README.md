@@ -19,6 +19,11 @@ Welcome to the 2020 Virtual ML .NET Hackathon!
 | November 18 (11:59 PM PDT) | Final submissions due | You're done!
 | November 20  | Winners announced | Congratulations!
 
+## Stream Links
+
+- [Twitch](https://www.twitch.tv/virtualmlnet)
+- [YouTube](https://www.youtube.com/watch?v=CoRcBV_y5E0)
+
 ## <a id="create-project"></a> Create a project
 
 To create a project, create [an issue](https://github.com/virtualmlnet/hackathon-2020/issues/new?assignees=&labels=&template=idea.md&title=ML.NET+Hackathon+Idea) in this repository. In the issue put the details of the project and any relevant links to the data.
