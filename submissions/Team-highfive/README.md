@@ -11,7 +11,7 @@ We chose banking domain as our example in this problem statement. In Banks, ther
 ### Team contact
 For questions on this submission you can contact: <br>
 <a href="mailto:moresumit416@gmail.com"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> : Sumeet More <br>
-<a href="mailto:rohan.ghodke@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> : Rohan Ghodke 
+<a href="mailto:rohan.ghodke@gmail.com"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> : Rohan Ghodke 
 
 ### Solution
 - As explained in problem statement, we are trying to predict load of withdrawal service of a bank for a given day using machine learning techniques.
