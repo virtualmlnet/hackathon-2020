@@ -30,4 +30,4 @@ The Dataset for the training the model was found in **Kaggle** https://www.kaggl
 
 ## VIDEO PRESENTATION
 
-https://drive.google.com/file/d/1GG1mWOi5AuK4qye-AHkMzEOHlfJ1XtYh/view?usp=sharing
+https://drive.google.com/file/d/1qlPloVqo_JAIyv4-6591EzR2xMGUYSoo/view?usp=sharing
