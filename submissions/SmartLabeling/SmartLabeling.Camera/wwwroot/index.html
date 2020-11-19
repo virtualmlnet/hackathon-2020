@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Labeling Control Panel</title>
+    <link href="lib/bootstrap-5.0.0-alpha3-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css" />
+    <script src="lib/bootstrap-5.0.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="lib/aspnet/signalr/dist/browser/signalr.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="container-fluid body-content">
+        <div class="row m-3">
+            <div class="col-12">
+                <h1>Camera [IoT]</h1>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-12 m-5 text-center">
+                <div class="card text-center crop_camera_image">
+                    <img class="card-img-top rounded" id="camera" src="images/undefined.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLabeling.API", "SmartLabeling.API\SmartLabeling.API.csproj", "{3CFC96D8-02C8-4E2C-B8CD-1ABCB5AC88D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLabeling.ML", "SmartLabeling.ML\SmartLabeling.ML.csproj", "{11E11FC1-97AA-466F-AAFD-9419DD714D40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLabeling.Sensors", "SmartLabeling.Sensors\SmartLabeling.Sensors.csproj", "{A8F2A5E3-C629-4FFD-9AF9-D02E708C9C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLabeling.Camera", "SmartLabeling.Camera\SmartLabeling.Camera.csproj", "{3279D860-16FC-488E-8055-B21894F80D98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLabeling.Core", "SmartLabeling.Core\SmartLabeling.Core.csproj", "{6D3C7BF5-397D-4E6D-B5C1-13D836AC6FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFC96D8-02C8-4E2C-B8CD-1ABCB5AC88D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFC96D8-02C8-4E2C-B8CD-1ABCB5AC88D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFC96D8-02C8-4E2C-B8CD-1ABCB5AC88D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFC96D8-02C8-4E2C-B8CD-1ABCB5AC88D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E11FC1-97AA-466F-AAFD-9419DD714D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E11FC1-97AA-466F-AAFD-9419DD714D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E11FC1-97AA-466F-AAFD-9419DD714D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E11FC1-97AA-466F-AAFD-9419DD714D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F2A5E3-C629-4FFD-9AF9-D02E708C9C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F2A5E3-C629-4FFD-9AF9-D02E708C9C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F2A5E3-C629-4FFD-9AF9-D02E708C9C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F2A5E3-C629-4FFD-9AF9-D02E708C9C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3279D860-16FC-488E-8055-B21894F80D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3279D860-16FC-488E-8055-B21894F80D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3279D860-16FC-488E-8055-B21894F80D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3279D860-16FC-488E-8055-B21894F80D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3C7BF5-397D-4E6D-B5C1-13D836AC6FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3C7BF5-397D-4E6D-B5C1-13D836AC6FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3C7BF5-397D-4E6D-B5C1-13D836AC6FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3C7BF5-397D-4E6D-B5C1-13D836AC6FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65591169-D207-41B3-903D-22DDC0DBE894}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Labeling Control Panel</title>
+
+    <link href="lib/bootstrap-5.0.0-alpha3-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css" />
+
+    <script src="lib/bootstrap-5.0.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="lib/aspnet/signalr/dist/browser/signalr.js"></script>
+    <script src="js/postlabeling.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="container-fluid body-content">
+        <div class="row m-3">
+            <div class="col-8">
+                <h1>Smart Labeling - Apex Team</h1>
+                <h2>[post labeling mode]</h2>
+            </div>
+            <div class="col-2">
+                <input type="image" class="limit_96 command" title="Start streaming" id="start" onfocus="blur()" src="/images/online.png" />
+                <input type="image" class="limit_96 command" title="Stop streaming" id="stop" onfocus="blur()" src="/images/offline.png" />
+            </div>
+            <div class="col-2">
+                <input type="image" class="limit_64 command" title="Retrain Inception model" id="inception_train" onfocus="blur()" src="images/wheel.png" />
+            </div>
+            <hr />
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark pl-5 pr-5">
+                    <a class="navbar-brand" href="prelabeling.html">&#11207; Pre labeling</a>
+                    <a class="navbar-brand" href="rtlabeling.html">&#11200; Real-time labeling</a>
+                    <a class="navbar-brand" href="postlabeling.html">&#11208; Post labeling</a>
+                    <a class="navbar-brand" href="validatemodel.html">&#11044; Validate model</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col-2">
+                <div class="card text-center limit_128">
+                    <img class="card-img-top rounded" src="images/lux.png" alt="Luminosity" title="Luminosity">
+                    <div class="card-footer">
+                        <h4><span id="lux" class="card-text badge bg-primary">? %</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card text-center limit_128">
+                    <img class="card-img-top rounded" src="images/temp.png" alt="Temperature" title="Temperature">
+                    <div class="card-footer">
+                        <h4><span id="temp" class="card-text badge bg-primary">? &deg;C</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card text-center limit_128">
+                    <img class="card-img-top rounded" src="images/infra.png" alt="Infrared" title="Infrared">
+                    <div class="card-footer">
+                        <h4><span id="infra" class="card-text badge bg-primary">? %</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <div class="card text-center limit_image_256">
+                    <img class="card-img-top rounded limit_image_256" id="camera" src="images/undefined.png" alt="">
+                    <div class="card-img-overlay">
+                        <h2><span id="prediction" class="card-text badge bg-danger"></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-9">
+                <table id="readings" class="table table-striped table-sm" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Temperature</th>
+                            <th>Luminosity</th>
+                            <th>Infrared</th>
+                            <th>Created at</th>
+                            <th>Predicted at</th>
+                            <th>Predicted source</th>
+                            <th>Keep</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="col-3">
+                <input type="button" id="clear_list" class="btn btn-outline-primary d-block m-2" value="Clear" />
+                <input type="button" id="save_csv" class="btn btn-outline-primary d-block m-2" value="Save as csv" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

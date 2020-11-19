@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.5.2" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.5.2" />
+    <PackageReference Include="Microsoft.ML.TensorFlow" Version="1.5.2" />
+    <PackageReference Include="Microsoft.ML.LightGBM" Version="1.5.2" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLabeling.Core\SmartLabeling.Core.csproj" />
+  </ItemGroup>
+
+</Project>
