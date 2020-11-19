@@ -1,4 +1,4 @@
-## Team ML.NET to the moon and back!
+## Malicious Packet Detection Team
 
 ### Idea
 The goal of this project is to use anomaly detection with ML.NET to detect malicious network activity. We will simulate a network with some random non malicious agents emitting network traffic (Web request, ftp, etc) and then add a malicious agent that will conduct abnormal network traffic (port scanning, vulnerability execution, etc). We will train a model to identify the activity of the malicious agent from the activity of the non malicious agents.
