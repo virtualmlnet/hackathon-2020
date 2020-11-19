@@ -1,0 +1,8 @@
+VersionID,VersionFileName,VersionAbbreviation,VersionLanguage,VersionName,VersionDocumentation,VersionDomain
+1,t_asv,ASV,english,American Standard-ASV1901,http://en.wikipedia.org/wiki/American_Standard_Version,Public Domain
+2,t_bbe,BBE,english,Bible in Basic English,http://en.wikipedia.org/wiki/Bible_in_Basic_English,Public Domain
+3,t_dby,DARBY,english,Darby English Bible,http://en.wikipedia.org/wiki/Darby_Bible,Public Domain
+4,t_kjv,KJV,english,King James Version,http://en.wikipedia.org/wiki/King_James_Version,Public Domain
+5,t_wbt,WBT,english,Webster's Bible,http://en.wikipedia.org/wiki/Webster%27s_Revision,Public Domain
+6,t_web,WEB,english,World English Bible,http://en.wikipedia.org/wiki/World_English_Bible,Public Domain
+7,t_ylt,YLT,english,Young's Literal Translation,http://en.wikipedia.org/wiki/Young%27s_Literal_Translation,Public Domain
