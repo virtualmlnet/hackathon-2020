@@ -17,12 +17,12 @@ Welcome to the 2020 Virtual ML .NET Hackathon!
 | November 13 (12 PM PDT) | Kickoff & Workshop | Kick off stream and intro workshop for new ML.NET users ([Twitch](https://www.twitch.tv/virtualmlnet) / [YouTube](https://www.youtube.com/watch?v=CoRcBV_y5E0))
 | November 13-18 | Hacking | Use this time to hack on your idea
 | November 18 (11:59 PM PDT) | Final submissions due | You're done!
-| November 20  | Winners announced | Congratulations!
+| November 20  | Winners announced (11 AM PDT) | Congratulations! ([Twitch](https://www.twitch.tv/virtualmlnet) / [YouTube](https://youtu.be/I3tpA9t5e5w))
 
 ## Stream Links
 
 - [Twitch](https://www.twitch.tv/virtualmlnet)
-- [YouTube](https://www.youtube.com/watch?v=CoRcBV_y5E0)
+- [YouTube](https://youtu.be/I3tpA9t5e5w)
 
 ## <a id="create-project"></a> Create a project
 
