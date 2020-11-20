@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Labeling Control Panel</title>
+
+    <link href="lib/bootstrap-5.0.0-alpha3-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css" />
+
+    <script src="lib/bootstrap-5.0.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="lib/aspnet/signalr/dist/browser/signalr.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="container-fluid body-content">
+        <div class="row m-3">
+            <div class="col-8">
+                <h1>Sensors [IoT]</h1>
+                <h3 id="labeling_status"></h3>
+            </div>
+            <div class="col-2 text-center">
+                <div><input type="image" class="p-1 m-auto limit_128 command" title="None" id="source_cross" value="" onfocus="blur()" src="/images/cross.png" /></div>
+            </div>
+            <div class="col-4">
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12 p-5">&nbsp;</div>
+                    <div class="col-12 p-3">&nbsp;</div>
+                    <div class="col-4">
+                        <div class="card text-center limit_128">
+                            <img class="card-img-top rounded" src="images/lux.png" alt="Luminosity" title="Luminosity">
+                            <div class="card-footer">
+                                <h4><span id="lux" class="card-text badge bg-primary">? %</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-center limit_128">
+                            <img class="card-img-top rounded" src="images/temp.png" alt="Temperature" title="Temperature">
+                            <div class="card-footer">
+                                <h4><span id="temp" class="card-text badge bg-primary">? &deg;C</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-center limit_128">
+                            <img class="card-img-top rounded" src="images/infra.png" alt="Infrared" title="Infrared">
+                            <div class="card-footer">
+                                <h4><span id="infra" class="card-text badge bg-primary">? %</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="m-5">&nbsp;</div>
+                <div class="m-5">&nbsp;</div>
+                <div class="m-5">&nbsp;</div>
+                <h2><span id="source" class="card-text badge bg-warning"></span></h2>
+            </div>
+            <div class="col-2 text-center">
+                <div><input type="image" class="p-1 m-auto limit_128 command" title="Lighter" id="source_lighter" value="Lighter" onfocus="blur()" src="/images/lighter.png" /></div>
+                <div><input type="image" class="p-1 m-auto limit_128 command" title="FlashLight" id="source_flashlight" value="FlashLight" onfocus="blur()" src="/images/flashlight.png" /></div>
+                <div><input type="image" class="p-1 m-auto limit_128 command" title="Infrared" id="source_infrared" value="Infrared" onfocus="blur()" src="/images/infrared.png" /></div>
+                <div><input type="image" class="p-1 m-auto limit_128 command" title="DayLight" id="source_daylight" value="DayLight" onfocus="blur()" src="/images/daylight.png" /></div>
+            </div>
+            <div class="col-2 text-center">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

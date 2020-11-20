@@ -1,0 +1,38 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("/images/raspberry_pi.png");
+    background-size: cover;
+}
+
+    body:before {
+        content: "";
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+.crop_icon {
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+}
+
+.limit_64 {
+    max-width: 64px;
+}
+
+.limit_128 {
+    max-width: 128px;
+}
+
+.crop_camera_image {
+    width: 512px;
+    height: 512px;
+    overflow: hidden;
+}

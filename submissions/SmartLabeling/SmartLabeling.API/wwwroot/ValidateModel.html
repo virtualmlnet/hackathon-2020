@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Labeling Control Panel</title>
+
+    <link href="lib/bootstrap-5.0.0-alpha3-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css" />
+
+    <script src="lib/bootstrap-5.0.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="js/validate.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="container-fluid body-content">
+
+        <div class="row m-3">
+            <div class="col-10">
+                <h1>Smart Labeling - Apex Team</h1>
+                <h2>[validation mode]</h2>
+            </div>
+            <div class="col-2">
+                <input type="image" src="images/wheel.png" id="train" class="command limit_64" onfocus="blur()" title="Retrain Inception model" />
+            </div>
+            <hr />
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark pl-5 pr-5">
+                    <a class="navbar-brand" href="prelabeling.html">&#11207; Pre labeling</a>
+                    <a class="navbar-brand" href="rtlabeling.html">&#11200; Real-time labeling</a>
+                    <a class="navbar-brand" href="postlabeling.html">&#11208; Post labeling</a>
+                    <a class="navbar-brand" href="validatemodel.html">&#11044; Validate model</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class="col-4">
+                <ul id="datasets" class="list-group list-group-flush"></ul>
+            </div>
+            <div class="col-4 text-right">
+                <h3><span id="micro_accuracy_label"></span><span id="micro_accuracy" class="card-text badge bg-danger"></span></h3>
+                <h3><span id="macro_accuracy_label"></span><span id="macro_accuracy" class="card-text badge bg-danger"></span></h3>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-12 text-center">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
